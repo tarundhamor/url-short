@@ -1,0 +1,31 @@
+{
+  "name": "url-short",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev":"nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarundhamor/url-short.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarundhamor/url-short/issues"
+  },
+  "homepage": "https://github.com/tarundhamor/url-short#readme",
+  "description": "",
+  "dependencies": {
+    "config": "^3.2.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.11",
+    "shortid": "^2.2.15",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
